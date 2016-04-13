@@ -191,7 +191,7 @@ LOCAL_SHARED_LIBRARIES :=         \
         libdl                     \
         libeffects
 
-
+LOCAL_EXPORT_SHARED_LIBRARY_HEADERS := libmedia
 
 LOCAL_MODULE := libwilhelm
 LOCAL_MODULE_TAGS := optional
